@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(11,5,31);
+    background: linear-gradient(158deg, rgba(11,5,31,1) 45%, rgba(51,68,250,1) 100%);
+    color: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: -10;
+
+   
+}
+
+.navBar{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+   
+}
+.banner{
+    position: relative;
+    backdrop-filter: blur(10px);
+    max-width: 90%;
+    padding:1rem;
+    height: 5rem;
+    margin: 1rem auto;
+    border-radius: 20px;
+    border: 1px solid white;
+   
+    
+}
+
+.banner ul{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+
+.banner .dash .material-symbols-outlined{
+    font-size: 18px ;
+    cursor: pointer;
+}
+
+.BigD{
+    position: relative;
+    bottom: 5px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hero{
+    gap: 1rem;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner li{
+    all: unset;
+}
+
+.banner .hero .searchInput .material-symbols-outlined  {
+    font-size: 18px;
+    font-weight: bold;
+}
+.searchInput{
+    margin-top: -3px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 13px;
+    align-items: center;
+    height: 2.3rem;
+    width: 230px;
+    background-color: rgba(15,20,55,255);
+    padding: 0.4rem;
+    padding-top: 12px;
+    border-radius: 15px;
+    border: solid 1px rgba(30,34,60,255)
+}
+
+.searchInput span{
+   
+    background-color:rgba(15,20,55,255);
+    color: rgba(123,132,161,255);
+
+}
+
+.searchInput input{
+    all: unset;
+    position: relative;
+    bottom: 5px;
+}
+.signIn{
+    margin-top: 7px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.signIn div{
+    position: relative;
+    left: 20px;
+    bottom: 22px;
+    font-weight: bold;
+}
+
+.banner .hero .signIn .material-symbols-outlined{
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.alone{
+    
+    padding-left: 10px;
+    padding-top: 8px;
+    gap: 3px;
+}
+
+.banner .hero .alone .material-symbols-outlined {
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.information{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 95%;
+    padding:1.5rem;
+    margin-left: 2rem;  
+    
+    gap: 20px;
+    margin-top: 100px;
+    
+}
+.day{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(7,11,38,255);
+    height: 90px;
+    width: 600px;
+    padding: 1.5rem;
+    border-radius: 15px;
+    padding-top: 1.2rem;
+}
+
+.today{
+    color: rgba(123,132,161,255);
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+.Numbers{
+   font-size: 20px ;
+   font-weight: bolder;
+}
+
+.green{
+    font-size: 15px;
+    color: rgba(32,102,81,255);
+}
+
+.information .day .material-symbols-outlined{
+    padding-top: 14px;
+    background-color: rgba(3,115,253,255);
+    width: 50px;
+    height: 50px;
+    padding-left: 14px;
+    border-radius: 15px;
+}
+
+.User{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(7,11,38,255);
+    height: 90px;
+    width: 600px;
+    padding: 1.5rem;
+    border-radius: 15px;
+    padding-top: 1.2rem;
+}
+
+.information .User .material-symbols-outlined{
+    padding-top: 14px;
+    background-color: rgba(3,115,253,255);
+    width: 50px;
+    height: 50px;
+    padding-left: 14px;
+    border-radius: 15px;
+}
+
+.newClients{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(7,11,38,255);
+    height: 90px;
+    width: 600px;
+    padding: 1.5rem;
+    border-radius: 15px;
+    padding-top: 1.2rem;
+}
+
+.newClients .red{
+    color: red;
+    font-size: 15px;
+}
+
+.information .newClients  .material-symbols-outlined{
+    padding-top: 14px;
+    background-color: rgba(3,115,253,255);
+    width: 50px;
+    height: 50px;
+    padding-left: 14px;
+    border-radius: 15px;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(7,11,38,255);
+    height: 90px;
+    width: 600px;
+    padding: 1.5rem;
+    border-radius: 15px;
+    padding-top: 1.2rem;
+}
+
+.information .total  .material-symbols-outlined{
+    padding-top: 14px;
+    background-color: rgba(3,115,253,255);
+    width: 50px;
+    height: 50px;
+    padding-left: 14px;
+    border-radius: 15px;
+}
+
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 60%;
+    margin-bottom: 2rem;
+}
+
+.parentSwagat{
+
+    background-image: url(cardimgfree.5771cbbb.png);
+    width: 1250px;
+    height: 350px;
+    background-repeat:none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: fill;
+    border-radius: 15px;
+    padding: 50px;
+    margin-right: 0.8rem;
+}
+
+.swagat{
+    color: rgba(103,115,141,255);
+    font-size: 18px;
+}
+
+.swagat span{
+    color: white;
+    font-size:50px;
+    font-weight: bold;
+    padding-top:5px ;
+}
+
+.greet{
+    color: rgba(103,115,141,255);
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.Record{
+    height: 150px;
+    display: flex;
+}
+.Record .Tap{
+    color: white;
+  
+    
+    font-size: 15px;
+}
+
+.welcome .parentSwagat .childSwagat .Record .material-symbols-outlined{
+    color: white;
+    margin-left:5px ;
+}
+
+
+
+
+
+
+
+
